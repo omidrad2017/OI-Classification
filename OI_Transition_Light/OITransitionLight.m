@@ -373,7 +373,7 @@ ylim([-0.01 2])
 % where, 'q' is the vector of detected change points along the signal.
 %
 % To automate estimation of number of change points, as  mentioned  before, 
-% we run the findchangepts() on B1 with maximum default change point number
+% we run the findchangepts() on B2 with maximum default change point number
 % of temp_numc. The  default   value is 10,  but e.g.  if the B1 has only 4
 % transition points, the findchangepts function will find  exactly 4 change
 % points because it works very well over binary signals.
