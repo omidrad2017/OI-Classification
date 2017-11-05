@@ -9,7 +9,9 @@
  At the end, we notice that the third method gives more  accurate  results. 
  We used the Otsu's result as  a guiding  blueprint for  the  third method, 
  where we assigned indoor or outdoor to each segment of the  third method's
- binary classification result.
+ binary classification result. In case of  sparse  light  signal (in pocket
+ scenario),  we  can  use  Otsu result of geolocation uncertainty as a blue 
+ print.
 --------------------------------------------------------------------------
 
  Inputs: 
